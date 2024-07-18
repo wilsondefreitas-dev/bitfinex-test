@@ -143,7 +143,7 @@ function App() {
     precision.current += value;
 
     disconnect();
-    setInterval(() => {
+    setTimeout(() => {
       connect();
     }, 1);
   }
