@@ -1,0 +1,89 @@
+:root {
+  --font-color-gray: #9ba5ac;
+}
+
+.mainContainer {
+  background-color: #102331;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer__mainWrapper {
+  background-color: #172d3e;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mainContainer__toolBar {
+  color: var(--font-color-gray);
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: solid 1px var(--font-color-gray);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainContainer__toolBar button {
+  background-color: #1f3a4c;
+  color: var(--font-color-gray);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.mainContainer__toolBar button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.mainContainer__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-width: 754px;
+  min-height: 150px;
+}
+
+.mainContainer__info {
+  color: var(--font-color-gray);
+  font-weight: bolder;
+}
+
+.mainContainer__tablesContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.mainContainer__tablesContainer table {
+  border-collapse: collapse;
+  width: 360px;
+}
+
+.mainContainer__tablesContainer th {
+  color: var(--font-color-gray);
+}
+
+.mainContainer__tablesContainer th,
+.mainContainer__tablesContainer td {
+  padding: 5px 20px;
+}
+
+.mainContainer__status {
+  color: var(--font-color-gray);
+  font-weight: bolder;
+  border-top: solid 1px var(--font-color-gray);
+  padding-top: 10px;
+}
+
+/*  */
